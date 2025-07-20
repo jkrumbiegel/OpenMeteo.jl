@@ -1,0 +1,13 @@
+name = "OpenMeteo"
+uuid = "18a3dba5-99ec-498b-9457-6d429bc375c9"
+authors = ["TheCedarPrince <jacobszelko@gmail.com> and contributors"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
